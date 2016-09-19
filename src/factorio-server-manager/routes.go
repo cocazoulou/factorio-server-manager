@@ -27,6 +27,10 @@ func NewRouter() *mux.Router {
 		Methods("POST").
 		Name("LoginPOST").
 		HandlerFunc(LoginUser)
+	r.Path("/api/login").
+		Methods("POST").
+		Name("LoginPOST").
+		HandlerFunc(LoginUser)
 
 	// API subrouter
 	// Serves all JSON REST handlers prefixed with /api

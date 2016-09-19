@@ -4,3 +4,6 @@ factorio-server-manager
 auth.leveldb*
 conf.json
 *.exe
+.project
+.settings
+!/src/factorio-server-manager
